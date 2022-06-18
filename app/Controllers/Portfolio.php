@@ -9,14 +9,20 @@ class Portfolio extends BaseController{
 
         $portfolio = new PortfolioModel();
         $dates['portfolios']= $portfolio->orderBy('id','ASC')->findAll();
+        $dates['head']= view('template/head');
+        $dates['footer']= view('template/footer');
 
         return view('portfolio/list', $dates);
     }
 
     public function create(){
-        return view('portfolio/create');
+        $dates['head']= view('template/head');
+        $dates['footer']= view('template/footer');
+        return view('portfolio/create', $dates);
     }
     public function edit(){
-        return view('portfolio/edit');
+        $dates['head']= view('template/head');
+        $dates['footer']= view('template/footer');
+        return view('portfolio/edit', $dates);
     }
 }

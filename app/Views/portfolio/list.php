@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis trabajos</title>
-</head>
-<body>
-    <div class="box">
+    <?=$head?>
+    <div class="list-conteiner">
         <h2>Portafolio</h2>
 
         <div class="table-artwork">
@@ -37,6 +30,4 @@
             </table>
         </div>
     </div>
-    
-</body>
-</html>
+    <?=$footer?>

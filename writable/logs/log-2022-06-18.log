@@ -36,3 +36,57 @@ in APPPATH\Views\portfolio\list.php on line 34.
  5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolio))
  6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 17:10:14 --> Undefined variable $head
+in APPPATH\Views\portfolio\create.php on line 1.
+ 1 APPPATH\Views\portfolio\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $head', 'APPPATH\\Views\\portfolio\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\portfolio\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('portfolio/create', [], true)
+ 5 APPPATH\Controllers\Portfolio.php(19): view('portfolio/create')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Portfolio->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 17:10:29 --> Undefined variable $header
+in APPPATH\Views\portfolio\create.php on line 1.
+ 1 APPPATH\Views\portfolio\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'APPPATH\\Views\\portfolio\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\portfolio\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('portfolio/create', [], true)
+ 5 APPPATH\Controllers\Portfolio.php(19): view('portfolio/create')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Portfolio->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 17:11:25 --> Undefined variable $header
+in APPPATH\Views\portfolio\create.php on line 1.
+ 1 APPPATH\Views\portfolio\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'APPPATH\\Views\\portfolio\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\portfolio\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('portfolio/create', [], true)
+ 5 APPPATH\Controllers\Portfolio.php(21): view('portfolio/create')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Portfolio->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 17:11:47 --> Undefined variable $header
+in APPPATH\Views\portfolio\create.php on line 1.
+ 1 APPPATH\Views\portfolio\create.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'APPPATH\\Views\\portfolio\\create.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\portfolio\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('portfolio/create', [], true)
+ 5 APPPATH\Controllers\Portfolio.php(21): view('portfolio/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Portfolio->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolio))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-18 17:11:58 --> Undefined constant "footer"
+in APPPATH\Views\portfolio\create.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('portfolio/create', [], true)
+ 4 APPPATH\Controllers\Portfolio.php(21): view('portfolio/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Portfolio->create()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolio))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

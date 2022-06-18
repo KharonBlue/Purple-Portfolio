@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar</title>
-</head>
-<body>
-<div class="conteiner">
+<?=$head?>
+<div class="edit-conteiner">
     <h2>Editar Obra</h2>
     <div class="edit-form">
         <form action="" method="post">
@@ -26,5 +19,4 @@
         </form>
     </div>
 </div>
-</body>
-</html>
+<?=$footer?>
