@@ -20,8 +20,13 @@
                         <td><?=$portfolio['id']?></td>
                         <td><?=$portfolio['name']?></td>
                         <td><?=$portfolio['create_date']?></td>
-                        <td><?=$portfolio['artwork']?></td>
-                        <td>Editar/Borrar</td>
+                        <td>
+                            <img src="<?=base_url()?>/uploads/<?=$portfolio['artwork'];?>" width="100">
+                        </td>
+                        <td>
+                            <a href="<?=site_url('portfolio/delete/'.$portfolio['id'])?>">Borrar</a>
+                            <a href="<?=site_url('portfolio/edit/'.$portfolio['id'])?>">Editar</a>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
 

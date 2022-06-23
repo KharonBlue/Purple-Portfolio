@@ -55,4 +55,6 @@ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 }
 $routes->get('portfolio/list', 'Portfolio::list');
 $routes->get('portfolio/create', 'Portfolio::create');
-$routes->get('portfolio/edit', 'Portfolio::edit');
+$routes->get('portfolio/edit/(:num)', 'Portfolio::edit/$1');
+$routes->post('portfolio/save','Portfolio::save');
+$routes->get('portfolio/delete/(:num)', 'Portfolio::delete/$1');

@@ -2,7 +2,7 @@
 <div class="create-conteiner">
     <h2>Crear Obra</h2>
     <div class="create-form">
-        <form action="" method="post">
+        <form action="<?=site_url('/portfolio/save')?>" method="post" enctype="multipart/form-data">
             
             <label for="name">Nombre de la obra</label>
             <input type="text" name="name">
