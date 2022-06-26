@@ -23,4 +23,9 @@
         </nav>
     </div>
     <h1>Purple Art</h1>
+    <?php if(session('message')){ ?>
+<div class="alert">
+<?php echo session('message'); ?>
+</div>
+<?php } ?>
     

@@ -58,3 +58,4 @@ $routes->get('portfolio/create', 'Portfolio::create');
 $routes->get('portfolio/edit/(:num)', 'Portfolio::edit/$1');
 $routes->post('portfolio/save','Portfolio::save');
 $routes->get('portfolio/delete/(:num)', 'Portfolio::delete/$1');
+$routes->post('portfolio/update','Portfolio::update');
